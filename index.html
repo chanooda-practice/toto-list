@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="up">
+      <div class="todo">
+        <form id="todo-form">
+          <input
+            required
+            type="text"
+            placeholder="Write a To Do and Press Enter"
+          />
+        </form>
+        <ul id="todo-list"></ul>
+      </div>
+      <div class="main">
+        <div class="main-watch">
+          <h2 id="clock">00:00</h2>
+        </div>
+        <div class="welcome-username">
+          <div class="welcome-username_col">
+            <h1 id="welcome_title">Hello!!!</h1>
+            <span id="greeting" class="hidden"></span>
+            <form id="user-form" class="hidden">
+              <input
+                maxlength="15"
+                class="username-input"
+                type="text"
+                required
+                placeholder="이름을 입력해주세요."
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div class="quotes-page">
+      <p id="quotes-text"></p>
+      <span id="quotes-author"></span>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

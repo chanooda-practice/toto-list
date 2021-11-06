@@ -1,0 +1,49 @@
+.welcome-username {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.welcome-username_col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 5px 0px;
+  flex-direction: column;
+}
+
+.welcome-username_col h1,
+.welcome-username_col span,
+.username-input {
+  font-size: 40px;
+  font-weight: 200;
+  margin: 0px 10px;
+  box-sizing: border-box;
+}
+.username-input {
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 25px;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.username-input::placeholder {
+  color: #ffffff;
+  text-align: center;
+}
+
+.username-input:focus {
+  outline: none;
+  border: none;
+}
+.flex_row {
+  flex-flow: row;
+}
+.input_layout {
+  margin-top: 0px;
+  width: 200px;
+}
